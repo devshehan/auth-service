@@ -2,7 +2,7 @@ spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:postgresql://localhost:8080/auth_db
+    url: jdbc:postgresql://localhost:5432/auth_db
     username: postgres
     password: 4321
   jpa:
@@ -16,3 +16,7 @@ spring:
 
 server:
   port: 8080
+
+#JWT secretKey
+secret_key: "5dYLxsM5n2cH4Djdce48BwaCeqSsooZwQKaJt7PT6E5H3ogeptzC89MrUeTcQMuJFLpr2KWbhxD7SLfggJfoR9FU7T79ZUeYQeJoQDga3sf7RoRujZDZkL9TmuUdTmBC6jSjAQoeGYUUJWLArG7GQRQ2qUP3matzKhYLSbAnjppj8SWpXLwwdGEs6DxC8dX2JnHzCneu6H9ZA2xfTZaajf2A8p84LbEBBcF72KdM6GJngtcbokHUXabwpb22tbM8";
+
